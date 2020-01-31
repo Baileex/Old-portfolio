@@ -692,6 +692,19 @@ a:active {
   text-align: left;
 }
 
+p.main {
+  text-align: center;
+  font-size: 1.5em;
+}
+p.mainthree {
+  text-align: center;
+  font-size: 1.2em;
+}
+p.maintwo {
+  text-align: center;
+  font-size: 1em;
+}
+
 .contact-page .content-wrap .entry-content {
   margin-top: 20px;
   margin-bottom: 40px;
@@ -1005,7 +1018,7 @@ a:active {
 # Footer Bar
 --------------------------------------------------------------*/
 .footer-bar {
-  padding: 22px 0;
+  padding: 20px 0;
   background: #2f2f2f;
 }
 
@@ -1018,6 +1031,24 @@ a:active {
 
 .footer-social {
   margin-top: 30px;
+}
+
+.contact-links{
+  border-radius: 10px;
+  border: 2px solid white;
+  padding: 20px;
+  color: white;
+  font-size: 2.5em;
+  display: inline-block;
+  margin: 5px;
+  width: 40%;
+  font-family: "RosettaBlack";
+}
+
+.contact-links:hover{
+  background-color:white;
+  color: rgb(110, 106, 110);
+  cursor: pointer;
 }
 
 .footer-social ul {
